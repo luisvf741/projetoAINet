@@ -1,0 +1,68 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+.info{
+	h4{
+		font-size:22px;
+		font-weight:bold;
+	}
+	ul{
+		li{
+			font-size:18px;
+			margin-top: 10px;
+			i{
+				margin-right: 10px;
+			}
+		}
+	}
+}
+
+.file_picker{
+	.input-group{
+		text-align: center;
+		background-color: #EEF2F4;
+		display: block;
+		border-radius: 10px;
+	}
+}
+
+.navbar{
+	margin-bottom:0;
+}
+.welcome{
+	background-color: #EEF2F4;
+	.inner-welcome{
+		text-align: center;
+		padding: 80px 0;
+	}
+	h4{
+		margin:20px 0;
+	}
+}
+
+.box-statistic{
+	padding: 30px;
+	background-color: white;
+	border: 1px solid #d3e0e9;
+	border-radius: 100px;
+	text-align: center;
+	p{
+		font-size:18px;
+		color:#4a4a4a;
+	}
+	.value{
+		font-weight: bold;
+		font-size: 22px;
+		color: #4a92d2;
+	}
+}
+.panel-custom{
+	padding:40px;
+}
